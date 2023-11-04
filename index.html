@@ -24,13 +24,43 @@
         body {
             background-image: url('pink.gif'); /* Assuming the image is in the same directory as your HTML file */
             background-size: cover;
-        }
+            overflow: hidden; 
+    				}
+        .moving-image {
+         		position: absolute;
+   					top: 5-4%; 
+    				left: 0; 
+   					width: 192px; 
+    				height: 160px;
+    				animation: moveImage 5s linear infinite;
+				    }
+				@keyframes moveImage {
+    				to {
+        			left: 100%; /* Move to the right edge of the viewport */
+    					}
+        		}
+    		.yg1 {
+     				position: absolute; 
+      			top: 65%;
+      			left: 0;
+      			width: 200px;
+      			height: 
+      		}
+    		.yg2 {
+     				position: absolute; 
+      			top: 65%;
+      			left: 210;
+      			width: 200px;
+      			height: 220
+      		}
     		p {
      				text-align: justify;
       			text-align: center; 
           	font-size: 19px;
           	color: hsl(281, 100%, 29%)
       	}
+      
+
     </style>
 <h1>
   semerian (y[wai]g)
@@ -45,12 +75,15 @@
     <br>
     well, my name is semerian waigumo njama, i go by my middle name, or my nickname YG
     <br>
-    which is fun until i have to do anything regarding the govt !
-    here are some of my likes, dislikes etc and just my own MAGICAL geocity.  
+    which is fun until i have to do anything govt related lol !
+    here are some of my likes, dislikes etc and just my own MAGICAL slice of the web.  
   </p>
+<img src="stars.gif" alt="Moving Image" class="moving-image">
+<br>
+<img src="yg1.png" alt="Picture of Waigumo" class="yg1">
+<img src="headphonesyg.png" alt="Picture of Waigumo" class="yg2">
 
-</body>
-<body>	
-	
+
+
 </body>
 </html>
