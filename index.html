@@ -15,6 +15,15 @@
     background-size: cover;
     background-attachment: fixed;
     min-height: 79vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1,h2,p { 
+    margin: 20px auto; /* Adjust as needed */
+    max-width: 400px;
   }
 
   h1 {
@@ -24,7 +33,6 @@
     font-size: 54px;
     color: hsl(325, 94%, 54%);
     transform: skew(-0.2rad);
-    /*     display: inline-block; */
     animation: snake 3s infinite;
   }
 
@@ -64,9 +72,7 @@
 
   .firstp {
     margin: 250px;
-    position: relative;
-    
-/*     transform: translate(150px, -279px); */
+    transform: translate(150px, -279px);
     max-width: 400px;
   }
 
